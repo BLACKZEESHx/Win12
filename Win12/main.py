@@ -35,7 +35,9 @@ hStartMenu = win32gui.FindWindow("Windows.UI.Core.CoreWindow", "Start")
 #     return (left, top, right, bottom)
 
 def round_window(window_handle):
+    
     # {
+
     # # Method 1 //I don't like it
     # # Get window dimensions
     # # left, top, right, bottom = win32gui.GetWindowRect(window_handle)
